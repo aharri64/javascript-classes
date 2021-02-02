@@ -24,7 +24,7 @@ class artist {
         this.image = imageLink;
     }
 
-    aggIG(username) {
+    addIG(username) {
         this.instagram = username;
     }
 }
@@ -42,4 +42,6 @@ const devilMakesThree = new artist('Devil Makes Three', '10', 'Folk', 'unknown')
 devilMakesThree.addAlbum('Do Wrong Right', 'Chains Are Broken')
 devilMakesThree.addSong('Old Number 7', 'wheels')
 devilMakesThree.addImage('https://www.rollingstone.com/wp-content/uploads/2018/06/rs-12415-devil-624-1377695279.jpg?resize=1800,1200&w=1800')
-devilMakesThree.addImage('@thedevilmakes3')
+devilMakesThree.addIG('@thedevilmakes3')
+
+console.log(devilMakesThree)
