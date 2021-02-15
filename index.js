@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-//add home route
+//* add home route
 app.get('/', (req, res) => {
     res.send("Today's topic will be classes.");
 });

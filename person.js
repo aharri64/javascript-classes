@@ -6,7 +6,7 @@ class person {
         this.softwareEngineer = softwareEngineer;
         this.artists = []
     }
-    ///this is a method
+    //! this is a method, not an object so no commas ' , '
     greet() {
         console.log('Hello SEI-111');
     }
@@ -20,7 +20,7 @@ class person {
     }
     //method working with arrays
     addArtist(artist) {
-        console.log(`I likw ${artist}`);
+        console.log(`I like ${artist}`);
         this.artists.push(artist);
     }
     sleep(hours) {
@@ -28,13 +28,13 @@ class person {
     }
 }
 
-// this is an instance of a class
-// known as an object
-// IMPORTANT: add the new keyword like so...
+// ! this is an instance of a class
+// ! known as an object
+// ! IMPORTANT: add the new keyword like so...
 const princeLeo = new person('Leo Brooks', true);
 const kingAmir = new person('Amir Harrison', true);
 
-//print attributes
+//* print attributes
 console.log(princeLeo.name)
 console.log(kingAmir.name)
 
